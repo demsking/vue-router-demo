@@ -1,6 +1,14 @@
 # vue-router-demo
 
-> A Vue.js project
+## Getting Started
+
+```sh
+# build the container
+docker build -t vue-router-demo .
+
+# start the app
+docker run --rm -it -v $(pwd)/src:/src -p 3000:3000 vue-router-demo
+```
 
 ## Build Setup
 
